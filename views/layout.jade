@@ -1,0 +1,27 @@
+doctype html
+html
+	head
+		meta(http-equiv='content-type', content='text/html; charset=UTF-8')
+		meta(name='viewport', content='width=device-width, initial-scale=1.0')
+		meta(http-equiv='X-UA-Compatible', content='IE=edge')
+		meta
+		- for (var property in window.ogMeta)
+			meta(property=property, content=window.ogMeta[property])
+		
+		title #{title}
+		link(href='//cdn.jsdelivr.net/semantic-ui/2.1.4/semantic.min.css', media='all', rel='stylesheet', type='text/css')
+		link(href='//fonts.googleapis.com/icon?family=Material+Icons', media='all', rel='stylesheet', type='text/css')
+		script(src='//cdn.jsdelivr.net/jquery/2.1.4/jquery.min.js')
+		script(src='//cdn.jsdelivr.net/semantic-ui/2.1.4/semantic.min.js')
+		script(type='text/javascript', src='/assets/vendors.js')
+
+		script.
+			window.Fluky = {
+				state: !{state}
+			};
+
+		block head
+
+	body
+	
+		block body
