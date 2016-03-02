@@ -42,7 +42,7 @@ var removeBottomPadding = {
 	return {
 		ogMeta: {
 			'og:title': '全球首次大型 OpenStack 黑客松活動就在台灣！',
-			'og:image': handle.flux.getState('Service').externalUrl + fbPic
+			'og:image': 'http://openstack.hackathon.tw' + fbPic
 		}
 	};
 })
@@ -66,15 +66,15 @@ class LandingPage extends React.Component {
 
 				<div className={'ui basic center aligned segment landing-page-header'}>
 					<h1 className={'ui inverted header main-title'}>
-						Open Stack <i className="material-icons">clear</i> <I18n sign='landing_page.main.title'>Hackathon Taiwan</I18n>
+						<I18n sign='landing_page.title'>OpenStack Application Hackathon<br />2016 Taipei, Taiwan</I18n>
 					</h1>
 					<h2 className={'ui inverted header'}>
-						<I18n sign='landing_page.title'>OpenStack Application Hackathon<br />2016 Taipei, Taiwan</I18n>
+						2016.03.18 ~ 03.20
 					</h2>
 					<br />
 					<a href="http://hackathon.kktix.cc/events/2016-mar-openstack-hackathon" className="ui inverted huge button"><I18n sign='landing_page.entry_button'>Register</I18n></a>
 					<h2 className={'ui inverted header'}>
-						2016.03.18 ~ 03.20
+						<I18n sign='landing_page.main.title'>Hackathon Taiwan</I18n>
 					</h2>
 				</div>
 

@@ -1,6 +1,6 @@
 {
 	"service": {
-		"name": "Open Stack x Hackathon Taiwan",
+		"name": "OpenStack Application Hackathon",
 		"external_url": "http://localhost:3001"
 	},
 	"server": {
