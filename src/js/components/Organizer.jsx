@@ -57,7 +57,7 @@ class Organizer extends React.Component {
 									</p>
 
 									<p style={descStyle}>
-									黑客松台灣合作夥伴: MakerCup, IoT Taiwan, 協辦單位
+									黑客松台灣合作夥伴: 台灣土地開發股份有限公司, 卡市達創業加油站, LetSchool, MakerCup, IoT Taiwan
 									</p>
 
 								</div>
@@ -100,7 +100,7 @@ class Organizer extends React.Component {
 									</p>
 
 									<p style={descStyle}>
-									Hackathon Taiwan Partners: MakerCup, IoT Taiwan
+									Hackathon Taiwan Partners: Taiwan Land Development Corporation, Custard Cream, LetSchool, MakerCup, IoT Taiwan
 									</p>
 								</div>
 							</div>
