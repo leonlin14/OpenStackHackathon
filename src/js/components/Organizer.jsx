@@ -41,20 +41,25 @@ class Organizer extends React.Component {
 								<div className={'ui basic left aligned segment'}>
 									<h3 className="section-tip"><i className="material-icons" style={textIcon}>assignment_ind</i> 我們的夥伴</h3>
 									<p style={descStyle}>
-										<strong>主辦單位：</strong><br />OpenStack 基金會、黑客松台灣
+									<strong>指導單位:</strong><br /> 行政院科技會報辦公室
 									</p>
 									<p style={descStyle}>
-										<strong>合作社群：</strong><br />TWOSUG、MakerCup、IoT Taiwan
-									</p>
+									<strong>主辦單位/執行單位:</strong><br /> 經濟部技術處、經濟部工業局、TWOSUG, 黑客松台灣, QCT, InwinStack, 台灣雲端運算產業協會, 財團法人資訊工業策進會
 									<p style={descStyle}>
-										<strong>協辦單位：</strong><br />inwinSTACK、卡市達創業加油站、LetSchool
+									<strong>雲端運算平台由:</strong><br /> <a href="http://qct.io>">QCT</a> and inwinSTACK
 									</p>
+
 									<p style={descStyle}>
-										<strong>贊助單位：</strong><br />台灣土地開發、CCAT、ITRI、DOIT、IDB、inwinSTACK、QCT
+									贊助單位: Aptira, Inventec
 									</p>
 									<p style={descStyle}>
 										<strong>合作學術單位：</strong><br />清華大學、交通大學、台灣大學
 									</p>
+
+									<p style={descStyle}>
+									黑客松台灣合作夥伴: 台灣土地開發股份有限公司, 卡市達創業加油站, LetSchool, MakerCup, IoT Taiwan
+									</p>
+
 								</div>
 							</div>
 							<div className={'tablet only computer only column'}>
@@ -76,10 +81,26 @@ class Organizer extends React.Component {
 								<div className={'ui basic left aligned segment'}>
 									<h3 className="section-tip"><i className="material-icons" style={textIcon}>assignment_ind</i> Organizer</h3>
 									<h1 className="main-title section-title">
-										OpenStack Foundation Co-hosts and Co-organizer:
+									 Our Team:
 									</h1>
 									<p style={descStyle}>
-										Hackathon Taiwan, inwinSTACK, IDB, CCAT, ITRI, III, DOIT, QCT, TWOSUG.
+									<strong>Advised by:</strong><br /> BOST
+									</p>
+									<p style={descStyle}>
+									<strong>Organized/Executed by:</strong><br /> DOiT、IDB、Taiwan OpenStack User Group, Hackathon Taiwan, QCT, InwinStack, CCAT, III
+									<p style={descStyle}>
+									<strong>Cloud powered by:</strong><br /> <a href="http://qct.io>">QCT</a> and inwinSTACK
+									</p>
+
+									<p style={descStyle}>
+									Sponsored by: Aptira, Inventec
+									</p>
+									<p style={descStyle}>
+										<strong>Cooperating Universities：</strong><br />National Tsing Hua University、National Chiao Tong University、National Taiwan University
+									</p>
+
+									<p style={descStyle}>
+									Hackathon Taiwan Partners: Taiwan Land Development Corporation, Custard Cream, LetSchool, MakerCup, IoT Taiwan
 									</p>
 								</div>
 							</div>
