@@ -79,7 +79,7 @@ class Organizer extends React.Component {
 										OpenStack Foundation Co-hosts and Co-organizer:
 									</h1>
 									<p style={descStyle}>
-										Hackathon Taiwan, inwinSTACK, IDB, Taiwan Land Development Corporation, Custardcream, CCAT, ITRI, III, DOIT, TWOSUG.
+										Hackathon Taiwan, inwinSTACK, Taiwan Land Development Corporation, Custardcream, CCAT, OpenStack, Aptira, Wiwynn, ZyZEL.
 									</p>
 								</div>
 							</div>
